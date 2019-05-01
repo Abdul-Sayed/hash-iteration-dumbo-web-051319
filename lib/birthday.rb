@@ -7,7 +7,7 @@ birthday_kids = {
 
 def happy_birthday(birthday_kids)
   
-  birthday_kids.each { |kids_name, age| }
+  birthday_kids.each { |kids_name, age| {
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   }
 
